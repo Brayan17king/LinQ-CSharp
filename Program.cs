@@ -13,7 +13,13 @@ internal class Program
         // ImprimirValores(queries.LibrosAct250());
         // Console.WriteLine(queries.BookAllStatus() ? "Todos los Libros contienen el Status" : "Almenos uno de los Libros no Contiene el status");
         //ImprimirValores(queries.BookAnyStatus());
-        ImprimirValores(queries.ContainsStatuts());
+        //ImprimirValores(queries.ContainsStatuts());
+        //ImprimirValores(queries.OrderByStatus());
+        //ImprimirValores(queries.OrderDescending());
+        //ImprimirValores(queries.TakeStatus());
+        //ImprimirValores (queries.SkipStatus());
+            ImprimirValores(queries.Select());
+
     }
 
     private static void ImprimirValores(IEnumerable<Book> books)
