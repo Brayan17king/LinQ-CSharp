@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\APM02-53\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APM02-53\\Desktop\\cSharp\\LinQ-CSharp\\LinQ-CSharp.csproj",
+      "projectUniqueName": "/workspaces/LinQ-CSharp/LinQ-CSharp.csproj",
       "projectName": "LinQ-CSharp",
-      "projectPath": "C:\\Users\\APM02-53\\Desktop\\cSharp\\LinQ-CSharp\\LinQ-CSharp.csproj",
-      "packagesPath": "C:\\Users\\APM02-53\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APM02-53\\Desktop\\cSharp\\LinQ-CSharp\\obj\\",
+      "projectPath": "/workspaces/LinQ-CSharp/LinQ-CSharp.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/LinQ-CSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APM02-53\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -112,7 +112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/dotnet/7.0.400/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
