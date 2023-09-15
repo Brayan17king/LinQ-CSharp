@@ -1,0 +1,17 @@
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\bin\Debug\net7.0\LinQ-CSharp.exe
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\bin\Debug\net7.0\LinQ-CSharp.deps.json
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\bin\Debug\net7.0\LinQ-CSharp.runtimeconfig.json
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\bin\Debug\net7.0\LinQ-CSharp.dll
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\bin\Debug\net7.0\LinQ-CSharp.pdb
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.AssemblyInfoInputs.cache
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.AssemblyInfo.cs
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.dll
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\refint\LinQ-CSharp.dll
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.pdb
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.genruntimeconfig.cache
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\ref\LinQ-CSharp.dll
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.csproj.AssemblyReference.cache
+C:\Users\APM02-53\Desktop\cSharp\LinQ-CSharp\obj\Debug\net7.0\LinQ-CSharp.csproj.CopyComplete
