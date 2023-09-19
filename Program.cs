@@ -18,8 +18,14 @@ internal class Program
         //ImprimirValores(queries.OrderDescending());
         //ImprimirValores(queries.TakeStatus());
         //ImprimirValores (queries.SkipStatus());
-            ImprimirValores(queries.Select());
-
+        //ImprimirValores(queries.Select());
+        //Console.WriteLine(queries.CountStatus());
+        //Console.WriteLine(queries.LongCountStatus());
+        //ImprimirValores(queries.MinStatusPublish());
+        //ImprimirValores(queries.MaxStatusPublish());
+        Console.WriteLine(queries.MinByStatus());
+        Console.WriteLine(queries.MaxByStatus());
+        
     }
 
     private static void ImprimirValores(IEnumerable<Book> books)
