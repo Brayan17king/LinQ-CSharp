@@ -152,5 +152,48 @@ namespace LinQ_CSharp
         {
             return lstbook.Where(book => book.PageCount>0).MaxBy(myBook => myBook.PageCount) ?? new Book();
         }
+
+        public int sumStatus()
+        {
+            return lstbook.Where(book => book.PageCount > 0 && book.PageCount <= 500).Sum(myBook => myBook.PageCount);
+        }
+
+        public string Aggregate()
+        {
+            return lstbook.Where(book => book.PublishedDate.Year > 2015).Aggregate("", (tituloLibros,next) => {
+                if (tituloLibros != string.Empty)
+                {
+                    tituloLibros += " - " + next.Title;
+                }
+                else
+                {
+                    tituloLibros += next.Title;
+                }
+                return tituloLibros;
+            });
+        }
+
+        public double AverageStatus()
+        {
+            return lstbook.Average(book => (book.Title ?? string.Empty).Length);
+        }
+
+        public IEnumerable<IGrouping<int,Book>> GroupByStatus()
+        {
+            return lstbook.Where(book => book.PublishedDate.Year >= 2000).GroupBy(myBook => myBook.PublishedDate.Year);
+        }
+
+         public ILookup<char,Book> LookupStatus()
+        {
+            return lstbook.ToLookup(book => book.Title?[0] ?? default(char), book => book);
+        }
+
+        public IEnumerable<Book> JoinStatus()
+        {
+            var Libros2005 = lstbook.Where(b => b.PublishedDate.Year > 2005);
+            var Libros500p = lstbook.Where(b => b.PageCount > 500);
+            return Libros2005.Join(Libros500p, p => p.Title, x => x.Title,(p,x)=>p);
+        }
+        
     }
 }
