@@ -118,7 +118,39 @@ namespace LinQ_CSharp
 
         public int CountStatus()
         {
-            return lstbook.Where(book => book.PageCount >= 200 && book.PageCount <= 500).Count();
+            return lstbook.Count(book => book.PageCount >= 200 && book.PageCount <= 500);
+        }
+
+        public long LongCountStatus()
+        {
+            return lstbook.LongCount(book => book.PageCount >= 200 && book.PageCount <= 500);
+        }
+
+        public DateTime MinStatus()
+        {
+            return lstbook.Min(book => book.PublishedDate);
+        }
+
+        public IEnumerable<Book> MinStatusPublish()
+        {
+            var fechaPublic = lstbook.Min(libro => libro.PublishedDate);
+            return lstbook.Where(libro => libro.PublishedDate == fechaPublic);
+        }
+
+        public IEnumerable<Book> MaxStatusPublish()
+        {
+            var fechaPublic = lstbook.Max(libro => libro.PublishedDate);
+            return lstbook.Where(libro => libro.PublishedDate == fechaPublic);
+        }
+
+        public Book MinByStatus()
+        {
+            return lstbook.Where(book => book.PageCount>0).MinBy(myBook => myBook.PageCount) ?? new Book();
+        }
+
+        public Book MaxByStatus()
+        {
+            return lstbook.Where(book => book.PageCount>0).MaxBy(myBook => myBook.PageCount) ?? new Book();
         }
     }
 }
